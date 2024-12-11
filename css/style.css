@@ -12,6 +12,9 @@
     border: 1px solid black;
 } */
 
+body {
+    font-family: "Roboto", sans-serif;
+}
 
 /* header */
 
@@ -20,8 +23,6 @@ header {
     background-color: #212529;
     /* debug */
 }
-
-/* main */
 
 /* navbar  */
 .navbar img {
@@ -53,4 +54,9 @@ header {
 .navbar .btn:hover {
     background-color: white;
     color: black;
+}
+
+/* main */
+.col .list-group {
+    margin-bottom: 20px;
 }
