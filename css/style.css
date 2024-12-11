@@ -29,12 +29,12 @@ header {
     max-width: 50px;
 }
 
-.navbar .navbar-toggler{
+.navbar .navbar-toggler {
     color: white;
     border: 1px solid white;
 }
 
-.navbar .navbar-toggler-icon{
+.navbar .navbar-toggler-icon {
     color: white;
 }
 
@@ -59,4 +59,23 @@ header {
 /* main */
 .col .list-group {
     margin-bottom: 20px;
+}
+
+/* table  */
+tbody i {
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    color: gray;
+}
+
+.add {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .add {
+        display: block;
+    }
 }
