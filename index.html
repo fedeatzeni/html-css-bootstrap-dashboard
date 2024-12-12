@@ -63,30 +63,35 @@
   <main>
 
     <div class="container">
+      <div class="flex title">
+        <h1>Catalogo libro</h1>
+        <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+      </div>
+
       <!-- col  -->
       <div class="row row-cols-1 row-cols-lg-2 mb-5">
         <div class="col col-lg-9">
 
           <!-- table -->
-          <table class="table">
+          <table class="table table-striped table-hover">
             <thead>
               <tr>
                 <th scope="col">Titolo</th>
                 <th scope="col">
-                  <div class="add">Data Prestito</div>
+                  <div class="d-none d-md-block">Data Prestito</div>
                 </th>
                 <th scope="col">Stato</th>
                 <th scope="col">Azioni</th>
               </tr>
             </thead>
             <tbody>
-              <tr class="table-secondary">
+              <tr>
                 <td>I pilastri della terra</td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-success">Disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
@@ -95,22 +100,22 @@
               <tr>
                 <td>I promessi sposi</td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-success">Disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
               </tr>
 
-              <tr class="table-secondary">
+              <tr>
                 <td>Il signore degli anelli </td>
                 <td>
-                  <div class="add">18/10/2023</div>
+                  <div class="d-none d-md-block">18/10/2023</div>
                 </td>
                 <td><span class="badge text-bg-warning">In prestito</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
@@ -119,22 +124,22 @@
               <tr>
                 <td>Harry Potter e la pietra filosofale </td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-success">Disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
               </tr>
 
-              <tr class="table-secondary">
+              <tr>
                 <td>Il codice Da Vinci</td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-danger">Non disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
@@ -143,22 +148,22 @@
               <tr>
                 <td>Shining</td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-success">Disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
               </tr>
 
-              <tr class="table-secondary">
+              <tr>
                 <td>La divina commedia</td>
                 <td>
-                  <div class="add">21/09/2023</div>
+                  <div class="d-none d-md-block">21/09/2023</div>
                 </td>
                 <td><span class="badge text-bg-warning">In prestito</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
@@ -167,22 +172,22 @@
               <tr>
                 <td>Il trono di spade</td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-success">Disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
               </tr>
 
-              <tr class="table-secondary">
+              <tr>
                 <td>Il mondo di Sofia</td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-danger">Non disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
@@ -191,22 +196,22 @@
               <tr>
                 <td>Le cronache di Narnia: il leone, la strega... </td>
                 <td>
-                  <div class="add">25/07/2023</div>
+                  <div class="d-none d-md-block">25/07/2023</div>
                 </td>
                 <td><span class="badge text-bg-warning">In prestito</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
               </tr>
 
-              <tr class="table-secondary">
+              <tr>
                 <td>Il piccolo principe </td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-success">Disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
@@ -215,10 +220,10 @@
               <tr>
                 <td>La storia infinita</td>
                 <td>
-                  <div class="add">-</div>
+                  <div class="d-none d-md-block">-</div>
                 </td>
                 <td><span class="badge text-bg-success">Disponibile</span></td>
-                <td>
+                <td class="flex">
                   <a href="#"><i class="fa-solid fa-pen"></i></a>
                   <a href="#"><i class="fa-solid fa-trash"></i></a>
                 </td>
