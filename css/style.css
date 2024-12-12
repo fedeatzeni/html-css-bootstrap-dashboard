@@ -69,6 +69,11 @@ main .flex{
     justify-content: space-between;
 }
 
+.title button a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* table  */
 tbody i {
@@ -81,4 +86,14 @@ tbody i {
 
 .flex {
     display: flex;
+}
+
+/* book page  */
+.border-gray {
+    border-top: 1px solid lightgray;
+    padding-top: 30px;
+}
+
+.gray {
+    color: gray;
 }
